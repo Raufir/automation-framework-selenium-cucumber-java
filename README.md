@@ -5,7 +5,6 @@ This framework is ready to use for UI automated test using selenium webdriver.
 
 ## Installation Steps
 
----
 To use this framework:
 1. Fork the repository.
 2. Clone: Download your copy of the repository to your local machine using
