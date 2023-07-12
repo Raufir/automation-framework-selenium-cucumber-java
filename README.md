@@ -15,7 +15,7 @@ To use this framework:
 
 ## Languages and Frameworks
 
----
+
 
 - Java 11:  as the programming language
 - Selenium Webdriver: as the web browser automation framework using the Java binding
