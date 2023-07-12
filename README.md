@@ -9,7 +9,7 @@ To use this framework:
 1. Fork the repository.
 2. Clone: Download your copy of the repository to your local machine using
 
-```git clone https://github.com/Raufir/automation-framework-selenium-cucumber-java.git```
+`git clone https://github.com/Raufir/automation-framework-selenium-cucumber-java.git`
 
 3. Import this project in [IntelliJ IDEA](https://www.jetbrains.com/idea/download/).
 
