@@ -11,7 +11,7 @@ To use this framework:
 
 ```git clone https://github.com/Raufir/automation-framework-selenium-cucumber-java.git```
 
-4. Import this project in [IntelliJ IDEA](https://www.jetbrains.com/idea/download/).
+3. Import this project in [IntelliJ IDEA](https://www.jetbrains.com/idea/download/).
 
 ## Languages and Frameworks
 
