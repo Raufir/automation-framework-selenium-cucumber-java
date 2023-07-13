@@ -5,8 +5,8 @@ This framework is ready to use for UI automated test using selenium webdriver.
 
 ## Prerequisite
 
-- Ensure JDK-17 is installed and JAVA_HOME is written in system variables with correct path.
-- Ensure Maven is installed, M2_HOME and MAVEN_HOME is written in system variables with correct path.
+- Ensure [JDK-17](https://www.oracle.com/ca-en/java/technologies/downloads/#java17) is installed and JAVA_HOME is written in system variables with correct path.
+- Ensure [Maven](https://maven.apache.org/download.cgi) is installed, M2_HOME and MAVEN_HOME is written in system variables with correct path.
 - Ensure homebrew is installed if you are using macOS
 
 ## Installation Steps
@@ -23,11 +23,11 @@ To use this framework:
 
 
 
-- Java 11:  as the programming language
-- Selenium Webdriver: as the web browser automation framework using the Java binding
-- WebDriverManager: as the browser driver management library
-- TestNG: as the testing framework
-- IntelliJ IDEA: as the IDE
+- Java 17:  as the programming language.
+- Selenium Webdriver: as the web browser automation framework using the Java binding.
+- WebDriverManager: as the browser driver management library.
+- TestNG: as the testing framework.
+- IntelliJ IDEA: as the IDE.
 
 ## Getting Started (Windows)
 
@@ -36,7 +36,7 @@ To use this framework:
 - Move those extracted files to **src> main > java > Driver > drivers**
 - Open the project with IntelliJ IDEA.
 - Go to test > runners > MainRunner.java
-- On line 20, click on the Play button and select `Run 'MainRunner'`
+- On line 20, click on the Play button and select `Run 'MainRunner'`.
 
 That's it your project should be up and running by now in your windows machine!
 
@@ -49,9 +49,9 @@ That's it your project should be up and running by now in your windows machine!
 - Notice that under drivers folder, both of these drivers are showing in red color - Don't panic!
 - Open terminal and run this ```brew install --cask chromedriver```.
 - Open terminal and run this ``` brew install geckodriver```.
-- Open the **DriverFactory.java** file, and **remove** this code from line 29 ```System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/main/java/Driver/drivers/chromedriver.exe");```
-- On the **DriverFactory.java** file, **remove** this code from line 37 ```System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/src/main/java/Driver/drivers/geckodriver.exe");```
-- Go to test > runners > MainRunner.java
-- On line 20, click on the Play button and select `Run 'MainRunner'`
+- Open the **DriverFactory.java** file, and **remove** this code from line 29 ```System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/main/java/Driver/drivers/chromedriver.exe");```.
+- On the **DriverFactory.java** file, **remove** this code from line 37 ```System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/src/main/java/Driver/drivers/geckodriver.exe");```.
+- Go to test > runners > MainRunner.java.
+- On line 20, click on the Play button and select `Run 'MainRunner'`.
 
 That's it your project should be up and running by now in your macOS machine!
